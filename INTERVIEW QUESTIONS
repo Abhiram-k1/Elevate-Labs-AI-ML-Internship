@@ -21,3 +21,27 @@ Use oversampling (e.g., SMOTE), undersampling, or class weighting methods.
 
 8. Can preprocessing affect model accuracy?
 Yes, it significantly improves model accuracy and reliability.
+
+9. What is the purpose of EDA?
+To understand the dataset's structure, spot anomalies, find patterns, and generate hypotheses for further analysis.
+
+10. How do boxplots help in understanding a dataset?
+Boxplots show data distribution, detect outliers, and highlight the median and quartiles.
+
+11. What is correlation and why is it useful?
+Correlation measures the relationship between variables, helping identify dependencies useful for feature selection.
+
+12. How do you detect skewness in data?
+By checking skewness value using df.skew() or visually using histograms or KDE plots.
+
+13. What is multicollinearity?
+It refers to high correlation between independent variables, which can affect model performance and interpretation.
+
+14. What tools do you use for EDA?
+Pandas, Matplotlib, Seaborn, Sweetviz, and Plotly.
+
+15. Can you explain a time when EDA helped you find a problem?
+In a Titanic dataset, EDA revealed missing age values and class imbalance, guiding preprocessing steps.
+
+16. What is the role of visualization in ML?
+Visualization simplifies complex data, helps detect patterns, and supports informed decision-making in model building.
